@@ -5,7 +5,7 @@ const passport = require("passport");
 // Initiates basic Sign in With Slack flow
 router.get("/slack", passport.authenticate("slack"));
 
-const frontURL = "http://157.253.162.69:3000";
+const frontURL = "http://localhost:3000";
 
 // Completes the OAuth flow.
 router.get(

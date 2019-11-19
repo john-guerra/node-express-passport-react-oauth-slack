@@ -13,9 +13,9 @@
     "express": "~4.16.1",
     "express-session": "^1.17.0",
     "http-errors": "~1.6.3",
-    "jade": "~1.11.0",
     "morgan": "~1.9.1",
-    "passport": "^0.4.0"
+    "passport": "^0.4.0",
+    "pug": "^2.0.4"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
