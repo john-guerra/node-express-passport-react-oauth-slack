@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1 Slack express
+  if user
+    div Welcome #{user.name}
+
+    form(method="POST" action="/auth/logout")
+      input(type="submit" value="Logout")
+  else
+    a(href="/auth/slack") Please log in
